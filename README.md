@@ -25,7 +25,7 @@ CSS3
 JavaScript
 Local Storage
 
-##Contributing
+Contributing
 Contributions are welcome! If you have any suggestions or improvements, please submit a pull request.
 
 License
