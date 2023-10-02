@@ -4,7 +4,7 @@ function card(name, description, image){
     this.image = image;
 }
 // Display the initial greeting message
-document.getElementById("display").innerHTML = '<p>Welcome! Click the "Draw" button to get your daily tarot reading.</p>';
+document.getElementById("display").innerHTML = '<p style="font-size: 28px;">Welcome! Click the "Draw" button to get your daily tarot reading.</p>';
 
 const deck = [
     new card('Wheel of Fortune', 'The same forces that govern the changing of the seasons, or the rising and setting of the sun is also the master of luck and the fate of individuals.', 'WheelOfFortune'),
@@ -40,7 +40,7 @@ document.getElementById("draw").onclick = function(){
 
         if (lastDrawn === today) {
             // User has already drawn a card today
-            document.getElementById("display").innerHTML = "You already got your reading today, come back tomorrow.";
+            document.getElementById("display").innerHTML = '<p style="font-size: 28px;">You already got your reading today, come back tomorrow.</p>';
             return;
         }
     }
